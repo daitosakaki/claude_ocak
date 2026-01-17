@@ -1,0 +1,38 @@
+┌─────────────────────────────────────────────────────────────────┐
+│                    FİNAL TEKNOLOJİ KARARLARI                    │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  BACKEND                                                        │
+│  ├── Dil: Node.js + TypeScript                                  │
+│  ├── Framework: NestJS                                          │
+│  └── Monorepo: pnpm workspaces + Turborepo                      │
+│                                                                 │
+│  FRONTEND                                                       │
+│  └── Flutter (mobile + web)                                     │
+│                                                                 │
+│  DATABASE                                                       │
+│  ├── Primary: MongoDB Atlas                                     │
+│  ├── Cache: Redis (GCP Memorystore)                             │
+│  └── Search: MongoDB Atlas Search (başlangıç)                   │
+│                                                                 │
+│  MESSAGING / REAL-TIME                                          │
+│  ├── WebSocket: Socket.IO + Redis adapter                       │
+│  ├── E2EE: libsodium (X25519 + XSalsa20)                        │
+│  └── Events: GCP Pub/Sub                                        │
+│                                                                 │
+│  MEDIA                                                          │
+│  ├── Storage: Cloud Storage (lifecycle policies)                │
+│  ├── Video: FFmpeg on Cloud Run (başlangıç)                     │
+│  └── CDN: Cloud CDN                                             │
+│                                                                 │
+│  AUTH                                                           │
+│  ├── JWT: Access (15dk) + Refresh (7gün)                        │
+│  ├── OAuth: Google, Apple                                       │
+│  └── Session: Redis                                             │
+│                                                                 │
+│  INFRASTRUCTURE                                                 │
+│  ├── Compute: Cloud Run                                         │
+│  ├── CI/CD: Cloud Build + GitHub Actions                        │
+│  └── IaC: Terraform                                             │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
